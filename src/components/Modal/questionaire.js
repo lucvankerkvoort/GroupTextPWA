@@ -1,13 +1,13 @@
 import React from "react";
-import { login, register, group, member, question } from "./questions";
+import { AddGroup } from "./elements/addGroup";
+import { AddMembers } from "./elements/addMembers";
+import { AddQuestion } from "./elements/addQuestion";
+import { Register } from "./elements/registration";
+import { Login } from "./elements/login";
 
-class Questionaire extends React.Component {
-  state = {};
-  handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-  handleClick = (e) => {
-    const { info, close } = this.props;
+const Questionaire = ({ close, info, element }) => {
+  const handleClick = (e) => {
+    console.log(info);
     e.preventDefault();
     if (Object.keys(this.state).length === 0) {
       let form = document.getElementsByTagName("form");
@@ -17,48 +17,33 @@ class Questionaire extends React.Component {
         form[0].append(message);
       }
     } else {
-      info(this.state);
+      info();
       close();
     }
   };
-  questions = () => {
-    const element = localStorage.getItem("element");
+  const questions = () => {
     switch (element) {
       case "Login":
-        return login;
+        return <Login close={close} />;
       case "Register":
-        return register;
-      case "Group":
-        return group;
+        return <Register close={close} />;
+      case "Groups":
+        return <AddGroup close={close} />;
       case "Member":
-        return member;
+        return <AddMembers close={close} />;
       case "Question":
-        return question;
+        return <AddQuestion close={close} />;
       default:
-        return localStorage.setItem("element", "");
+        return;
     }
   };
-  render() {
-    return (
-      <div className="Questionaire">
-        <form>
-          <h2>{localStorage.getItem("element")}</h2>
-          {this.questions().map((element, i) => {
-            return (
-              <input
-                key={i}
-                name={element.name}
-                type={element.type}
-                placeholder={element.placeholder}
-                onChange={this.handleChange}
-              />
-            );
-          })}
-          <button onClick={this.handleClick}>Submit</button>
-        </form>
-      </div>
-    );
-  }
-}
+
+  return (
+    <div className="Questionaire">
+      <h2>{element}</h2>
+      <form>{questions()}</form>
+    </div>
+  );
+};
 
 export default Questionaire;
