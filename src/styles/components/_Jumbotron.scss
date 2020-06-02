@@ -1,0 +1,49 @@
+.jumbotron {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to left bottom,
+    #fccd04,
+    #cedb35,
+    #a1e460,
+    #74e98b,
+    #45ebb4,
+    #20e9c8,
+    #00e7da,
+    #00e3e8,
+    #00deed,
+    #00d9f2,
+    #00d4f5,
+    #00cef7
+  );
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-start;
+  color: white;
+  align-items: center;
+  h2 {
+    font-size: 4em;
+    text-shadow: 2px 2px #a64ac9;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .jumbotron {
+    h2 {
+      font-size: 6em;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .jumbotron {
+    h2 {
+      font-size: 6em;
+    }
+  }
+}

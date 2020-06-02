@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: $yellow;
+  background: white;
+  .logo {
+    display: none;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 0.5em;
+      color: $yellow;
+    }
+    p:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+    p:active {
+      transform: scale(0.9);
+      transition: 0.2s;
+    }
+  }
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    // text-shadow: 1px 1px 1px black;
+    width: 80%;
+    p {
+      color: $yellow;
+      font-size: 0.8em;
+      padding: 0 2px;
+      cursor: pointer;
+    }
+    p:hover {
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+    p:active {
+      transform: scale(0.9);
+      transition: 0.2s;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    margin-left: 0px;
+
+    .navbar-items {
+      p {
+        padding: 0 15px;
+      }
+    }
+
+    .logo {
+      display: flex;
+      width: 20%;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-size: 1.2em;
+        color: $yellow;
+      }
+    }
+  }
+  .navbar-items {
+    font-size: 1.2em;
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
