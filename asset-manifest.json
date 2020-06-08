@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/GroupTextPWA/static/css/main.1df9952e.chunk.css",
+    "main.js": "/GroupTextPWA/static/js/main.4304da8e.chunk.js",
+    "main.js.map": "/GroupTextPWA/static/js/main.4304da8e.chunk.js.map",
+    "runtime-main.js": "/GroupTextPWA/static/js/runtime-main.b35b82ba.js",
+    "runtime-main.js.map": "/GroupTextPWA/static/js/runtime-main.b35b82ba.js.map",
+    "static/js/2.92f70475.chunk.js": "/GroupTextPWA/static/js/2.92f70475.chunk.js",
+    "static/js/2.92f70475.chunk.js.map": "/GroupTextPWA/static/js/2.92f70475.chunk.js.map",
+    "static/js/3.192c0767.chunk.js": "/GroupTextPWA/static/js/3.192c0767.chunk.js",
+    "static/js/3.192c0767.chunk.js.map": "/GroupTextPWA/static/js/3.192c0767.chunk.js.map",
+    "static/js/4.28181047.chunk.js": "/GroupTextPWA/static/js/4.28181047.chunk.js",
+    "static/js/4.28181047.chunk.js.map": "/GroupTextPWA/static/js/4.28181047.chunk.js.map",
+    "static/js/5.b33bd4dd.chunk.js": "/GroupTextPWA/static/js/5.b33bd4dd.chunk.js",
+    "static/js/5.b33bd4dd.chunk.js.map": "/GroupTextPWA/static/js/5.b33bd4dd.chunk.js.map",
+    "static/js/6.0dd0a4a4.chunk.js": "/GroupTextPWA/static/js/6.0dd0a4a4.chunk.js",
+    "static/js/6.0dd0a4a4.chunk.js.map": "/GroupTextPWA/static/js/6.0dd0a4a4.chunk.js.map",
+    "index.html": "/GroupTextPWA/index.html",
+    "precache-manifest.1a3212c3436444e5c48c4b4f2dc38435.js": "/GroupTextPWA/precache-manifest.1a3212c3436444e5c48c4b4f2dc38435.js",
+    "service-worker.js": "/GroupTextPWA/service-worker.js",
+    "static/css/main.1df9952e.chunk.css.map": "/GroupTextPWA/static/css/main.1df9952e.chunk.css.map",
+    "static/js/2.92f70475.chunk.js.LICENSE.txt": "/GroupTextPWA/static/js/2.92f70475.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b35b82ba.js",
+    "static/js/2.92f70475.chunk.js",
+    "static/css/main.1df9952e.chunk.css",
+    "static/js/main.4304da8e.chunk.js"
+  ]
+}
