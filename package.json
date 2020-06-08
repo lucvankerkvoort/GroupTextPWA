@@ -1,6 +1,6 @@
 {
   "name": "views",
-  "homepage": "https://lucvankerkvoort.github.io/Grouptext",
+  "homepage": "https://lucvankerkvoort.github.io/GroupTextPWA",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
