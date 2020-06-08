@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3af55d540d92321469df470b13b82ea5",
+    "revision": "9aed37e6a460de2540669625c1c15418",
     "url": "/GroupTextPWA/index.html"
   },
   {
-    "revision": "1682755a997f5c465b15",
+    "revision": "45e1c4ffdea78983929b",
     "url": "/GroupTextPWA/static/css/main.1df9952e.chunk.css"
   },
   {
-    "revision": "c20006a1e1e57ecd6c73",
-    "url": "/GroupTextPWA/static/js/2.92f70475.chunk.js"
+    "revision": "468fd03f5cd845c43fcf",
+    "url": "/GroupTextPWA/static/js/2.1e3cef7b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/GroupTextPWA/static/js/2.92f70475.chunk.js.LICENSE.txt"
+    "url": "/GroupTextPWA/static/js/2.1e3cef7b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "2e8dac2fcf94e72632ae",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/6.0dd0a4a4.chunk.js"
   },
   {
-    "revision": "1682755a997f5c465b15",
-    "url": "/GroupTextPWA/static/js/main.4304da8e.chunk.js"
+    "revision": "45e1c4ffdea78983929b",
+    "url": "/GroupTextPWA/static/js/main.47fa1c15.chunk.js"
   },
   {
     "revision": "dd31ad6e942ae9e9e6ec",
