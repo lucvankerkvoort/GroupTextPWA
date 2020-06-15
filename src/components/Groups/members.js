@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { store } from "../../services/Store";
+import API from "../../services/controller";
 
 const Members = ({ members }) => {
+  const userData = useContext(store);
   return (
-    <>
+    <div className="members">
       <table>
         {(members || []).length < 1 ? null : (
           <thead>
@@ -18,11 +21,11 @@ const Members = ({ members }) => {
             console.log(element);
             return (
               <tr key={i} className={element + i}>
-                <td>{element.memberName}</td>
-                <td>{element.telephoneNumber}</td>
+                <td>{element.member_name}</td>
+                <td>{element.member_phone}</td>
                 <td
                   style={{ cursor: "pointer" }}
-                  // onClick={() => props.remove(i)}
+                  // onClick={() => API.removeMemberFromGroup(element.member_id, userData.state.cur_group_id) }
                 >
                   X
                 </td>
@@ -31,7 +34,7 @@ const Members = ({ members }) => {
           })}
         </tbody>
       </table>
-    </>
+    </div>
   );
 };
 

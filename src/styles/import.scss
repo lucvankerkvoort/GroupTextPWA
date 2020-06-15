@@ -8,11 +8,13 @@
 @import "components/Group";
 @import "components/CreateAGroup";
 @import "components/Loading";
-
+@import "components/Members";
+@import "components/Questions";
 p,
 h1,
 h2,
 h3,
-h4 {
+h4,
+table {
   font-family: "Montserrat";
 }
