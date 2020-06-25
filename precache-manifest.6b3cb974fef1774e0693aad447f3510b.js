@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd5e8cf6c5d42623f134bb964eb8c87e",
+    "revision": "557a618d0755cafe5bca1a850accdfd9",
     "url": "/GroupTextPWA/index.html"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/2.1e3cef7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a9bc8a127c718b7e208",
-    "url": "/GroupTextPWA/static/js/3.dbcb1370.chunk.js"
+    "revision": "58ecefc75841f3f97611",
+    "url": "/GroupTextPWA/static/js/3.95d6e10a.chunk.js"
   },
   {
-    "revision": "38fa5d9f1c2024b78248",
-    "url": "/GroupTextPWA/static/js/4.631b75bb.chunk.js"
+    "revision": "55aecbda51989b7f6270",
+    "url": "/GroupTextPWA/static/js/4.c863b6c1.chunk.js"
   },
   {
     "revision": "d8237583879acb007bb9",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/main.d7f1ae00.chunk.js"
   },
   {
-    "revision": "45302d973f475703d498",
-    "url": "/GroupTextPWA/static/js/runtime-main.f3d17c08.js"
+    "revision": "3604150fcd4bbce9a84d",
+    "url": "/GroupTextPWA/static/js/runtime-main.fe0e49a0.js"
   }
 ]);
