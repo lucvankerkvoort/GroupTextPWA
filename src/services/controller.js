@@ -8,7 +8,18 @@ const url = {
 };
 
 export default {
-  getGroups: () => fetch(url.getGroups),
+  getGroups: () =>
+    fetch(url.getGroups, {
+      method: "GET",
+      mode: "cors",
+      cache: "no-cache",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      redirect: "follow",
+      referrerPolicy: "no-referrer",
+    }),
   addGroups: (data) =>
     fetch(url.groups, {
       method: "POST",
