@@ -24,9 +24,7 @@ export default {
       redirect: "follow",
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((json) => console.log(json)),
+    }),
   removeGroup: (id) =>
     fetch(url.groups + id + "/", {
       method: "DELETE",
@@ -38,7 +36,7 @@ export default {
       },
       redirect: "follow",
       referrerPolicy: "no-referrer",
-    }).then((res) => console.log(res)),
+    }),
   addMemberToGroup: (id, data) =>
     fetch(url.addMember + id + "/", {
       method: "POST",
@@ -51,9 +49,7 @@ export default {
       redirect: "follow",
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((json) => json),
+    }),
   removeMemberFromGroup: (id) =>
     fetch(url.deleteMember + id + "/", {
       method: "DELETE",
