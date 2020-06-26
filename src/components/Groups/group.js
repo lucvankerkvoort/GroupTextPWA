@@ -5,7 +5,7 @@ import Questions from "./question";
 import { store } from "../../services/Store";
 import API from "../../services/controller";
 
-const Group = ({ element, removeGroup }) => {
+const Group = ({ element }) => {
   const [showElement, setShowElement] = useState(false);
 
   const userData = useContext(store);

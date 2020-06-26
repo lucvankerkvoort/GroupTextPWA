@@ -18,9 +18,8 @@ export const AddGroup = ({ close }) => {
     let updatedGroups = [...userData.state.groups];
     updatedGroups.push(info);
 
-    API.addGroups(info).then((res) => {
+    API.addGroups(info).then(() => {
       dispatch({ type: "check", payload: !userData.state.check });
-      console.log(res);
     });
     // dispatch({ type: "setGroups", payload: updatedGroups });
     close();

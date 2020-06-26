@@ -18,7 +18,6 @@ const CreateGroup = () => {
     },
     [userData.state.check]
   );
-  console.log(userData.state);
   return (
     <div className="CreateGroup">
       {showElement ? <Modal close={() => setShowElement(false)} /> : null}
