@@ -12,12 +12,16 @@ const CreateGroup = () => {
 
   useEffect(
     function () {
-      API.getGroups().then((data) =>
-        dispatch({ type: "setGroups", payload: data })
-      );
+      API.getGroups()
+        .then((res) => res.json())
+        .then((data) => {
+          dispatch({ type: "setGroups", payload: data });
+          console.log(data);
+        });
     },
     [userData.state.check]
   );
+
   return (
     <div className="CreateGroup">
       {showElement ? <Modal close={() => setShowElement(false)} /> : null}

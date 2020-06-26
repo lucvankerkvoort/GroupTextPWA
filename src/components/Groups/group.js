@@ -31,9 +31,10 @@ const Group = ({ element }) => {
         <button onClick={() => setElement("Question")}>Add a Question</button>
         <button
           onClick={() => {
-            API.removeGroup(element.group_id).then((res) =>
-              dispatch({ type: "check", payload: !userData.state.check })
-            );
+            API.removeGroup(element.group_id).then((res) => {
+              dispatch({ type: "check", payload: !userData.state.check });
+              console.log(res);
+            });
           }}
         >
           Remove Group

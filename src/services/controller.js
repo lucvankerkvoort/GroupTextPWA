@@ -8,10 +8,7 @@ const url = {
 };
 
 export default {
-  getGroups: () =>
-    fetch(url.getGroups)
-      .then((res) => res.json())
-      .then((json) => json),
+  getGroups: () => fetch(url.getGroups),
   addGroups: (data) =>
     fetch(url.groups, {
       method: "POST",
@@ -24,7 +21,7 @@ export default {
       redirect: "follow",
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
-    }),
+    }).then((res) => res.json()),
   removeGroup: (id) =>
     fetch(url.groups + id + "/", {
       method: "DELETE",
@@ -49,7 +46,7 @@ export default {
       redirect: "follow",
       referrerPolicy: "no-referrer",
       body: JSON.stringify(data),
-    }),
+    }).then((res) => res.json()),
   removeMemberFromGroup: (id) =>
     fetch(url.deleteMember + id + "/", {
       method: "DELETE",
