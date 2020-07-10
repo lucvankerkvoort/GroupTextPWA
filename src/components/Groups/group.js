@@ -25,7 +25,8 @@ const Group = ({ element }) => {
       {showElement ? <Modal close={() => setShowElement(false)} /> : null}
       <h1>{element.group_name}</h1>
       <Members members={element.members} />
-      <Questions questions={element.question} />
+      {console.log(element.questions)}
+      <Questions questions={element.questions} />
       <div className="buttons-group">
         <button onClick={() => setElement("Member")}>Add a Member</button>
         <button onClick={() => setElement("Question")}>Add a Question</button>

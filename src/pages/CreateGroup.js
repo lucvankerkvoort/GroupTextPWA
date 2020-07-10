@@ -10,6 +10,10 @@ const CreateGroup = () => {
   const userData = useContext(store);
   const { dispatch } = userData;
 
+  // API.getQuestion()
+  //   .then((res) => res.json)
+  //   .then((data) => dispatch({ type: "setQuestions", payload: data }));
+
   useEffect(
     function () {
       API.getGroups()

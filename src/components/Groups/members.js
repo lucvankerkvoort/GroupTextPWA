@@ -19,7 +19,6 @@ const Members = ({ members }) => {
         )}
         <tbody>
           {(members || []).map((element, i) => {
-            console.log(element);
             return (
               <tr key={i} className={element + i}>
                 <td>{element.member_name}</td>
