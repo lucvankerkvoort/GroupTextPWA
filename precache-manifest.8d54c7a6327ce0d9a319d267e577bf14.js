@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "557a618d0755cafe5bca1a850accdfd9",
+    "revision": "f1693324d8bffe392ec774f2b2557e43",
     "url": "/GroupTextPWA/index.html"
   },
   {
-    "revision": "b29f645415f7074e1243",
+    "revision": "866f096e1d3958972e1b",
     "url": "/GroupTextPWA/static/css/main.a2cabc75.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/2.1e3cef7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58ecefc75841f3f97611",
-    "url": "/GroupTextPWA/static/js/3.95d6e10a.chunk.js"
+    "revision": "a946e63dacfc3367718b",
+    "url": "/GroupTextPWA/static/js/3.6a303ee0.chunk.js"
   },
   {
-    "revision": "55aecbda51989b7f6270",
-    "url": "/GroupTextPWA/static/js/4.c863b6c1.chunk.js"
+    "revision": "91c568d64a3f686248f3",
+    "url": "/GroupTextPWA/static/js/4.f187c84e.chunk.js"
   },
   {
     "revision": "d8237583879acb007bb9",
@@ -32,11 +32,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/6.615cdf22.chunk.js"
   },
   {
-    "revision": "b29f645415f7074e1243",
-    "url": "/GroupTextPWA/static/js/main.d7f1ae00.chunk.js"
+    "revision": "866f096e1d3958972e1b",
+    "url": "/GroupTextPWA/static/js/main.a3f941d9.chunk.js"
   },
   {
-    "revision": "3604150fcd4bbce9a84d",
-    "url": "/GroupTextPWA/static/js/runtime-main.fe0e49a0.js"
+    "revision": "fa10fe081ce4de253eb1",
+    "url": "/GroupTextPWA/static/js/runtime-main.1021430d.js"
   }
 ]);
