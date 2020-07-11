@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf50a68a86c013fe3063faf3beaaf78e",
+    "revision": "fe8f0ac74ed9673cded02b14605bd0fb",
     "url": "/GroupTextPWA/index.html"
   },
   {
-    "revision": "866f096e1d3958972e1b",
-    "url": "/GroupTextPWA/static/css/main.a2cabc75.chunk.css"
+    "revision": "d26ce3e3cdef020cdb60",
+    "url": "/GroupTextPWA/static/css/main.ec3bd4b7.chunk.css"
   },
   {
     "revision": "468fd03f5cd845c43fcf",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GroupTextPWA/static/js/6.615cdf22.chunk.js"
   },
   {
-    "revision": "866f096e1d3958972e1b",
+    "revision": "d26ce3e3cdef020cdb60",
     "url": "/GroupTextPWA/static/js/main.a3f941d9.chunk.js"
   },
   {

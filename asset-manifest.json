@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GroupTextPWA/static/css/main.a2cabc75.chunk.css",
+    "main.css": "/GroupTextPWA/static/css/main.ec3bd4b7.chunk.css",
     "main.js": "/GroupTextPWA/static/js/main.a3f941d9.chunk.js",
     "main.js.map": "/GroupTextPWA/static/js/main.a3f941d9.chunk.js.map",
     "runtime-main.js": "/GroupTextPWA/static/js/runtime-main.4552171c.js",
@@ -16,15 +16,15 @@
     "static/js/6.615cdf22.chunk.js": "/GroupTextPWA/static/js/6.615cdf22.chunk.js",
     "static/js/6.615cdf22.chunk.js.map": "/GroupTextPWA/static/js/6.615cdf22.chunk.js.map",
     "index.html": "/GroupTextPWA/index.html",
-    "precache-manifest.c9f896838d4435920ad93b6aa6dd550e.js": "/GroupTextPWA/precache-manifest.c9f896838d4435920ad93b6aa6dd550e.js",
+    "precache-manifest.2730e00ebb3e7634cbbe31be753eb293.js": "/GroupTextPWA/precache-manifest.2730e00ebb3e7634cbbe31be753eb293.js",
     "service-worker.js": "/GroupTextPWA/service-worker.js",
-    "static/css/main.a2cabc75.chunk.css.map": "/GroupTextPWA/static/css/main.a2cabc75.chunk.css.map",
+    "static/css/main.ec3bd4b7.chunk.css.map": "/GroupTextPWA/static/css/main.ec3bd4b7.chunk.css.map",
     "static/js/2.1e3cef7b.chunk.js.LICENSE.txt": "/GroupTextPWA/static/js/2.1e3cef7b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4552171c.js",
     "static/js/2.1e3cef7b.chunk.js",
-    "static/css/main.a2cabc75.chunk.css",
+    "static/css/main.ec3bd4b7.chunk.css",
     "static/js/main.a3f941d9.chunk.js"
   ]
 }
